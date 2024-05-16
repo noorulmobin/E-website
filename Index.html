@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="E.css" />
+    <link rel="stylesheet" href="large.css" />
+    <link rel="stylesheet" href="allmobile.css" />
+    <link rel="stylesheet" href="small.css" />
+    <link rel="stylesheet" href="mobile.css" />
+
     <link rel="fonts" href="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +26,7 @@
           <h1>BigShop</h1>
         </div>
         <div class="nav">
-          <ul>
+          <ul class="nav-items">
             <li>Product</li>
             <li>Solutions</li>
             <li>Pricing</li>
@@ -33,7 +37,12 @@
         <div class="navbuttons">
           <button id="buttonone">Login</button>
           <button id="buttontwo">Start Free</button>
-          <img src="/Assets/List.png" alt="" id="list" />
+          <img
+            src="/Assets/List.png"
+            alt="menu"
+            id="list"
+            onclick="toggleMenu()"
+          />
         </div>
       </div>
       <div class="page1">
@@ -228,8 +237,8 @@
     <div class="footer">
       <div class="allthree">
         <img id="logo1" src="Assets/Abstract (1).png" alt="" />
-        <div class="footer-heading">
-          <h1>
+        <div class="footer-heading" class="footer">
+          <h1 id="last-head">
             We can take care of the <br />
             installation
           </h1>
@@ -283,7 +292,7 @@
         </div>
       </div>
     </div>
-    
+
     <script src="/script.js"></script>
   </body>
 </html>
