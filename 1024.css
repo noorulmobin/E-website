@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: #fbf7ec;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Plus Jakarta Sans" !important;
+}
+p {
+  font-family: "Plus Jakarta Sans" !important;
+}
+button {
+  border: none;
+}
+.btn-own {
+  border: 1px solid #444;
+}
+.Header {
+  height: 1014px;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+.logo {
+  display: flex;
+
+  gap: 10px;
+}
+
+#list {
+  display: none;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  list-style: none;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  list-style: none;
+}
+.nav ul li {
+  font-family: " " DM Sans "" !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+.navbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 25px;
+}
+#buttonone {
+  border: none;
+  text-decoration: underline;
+  height: 44px;
+  font-family: " DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+}
+#buttontwo {
+  background-color: #004c3f;
+  color: white;
+  height: 44px;
+  font-family: " DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  width: 122px;
+}
+
+.page1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 4%;
+}
+.header-content h1 {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+}
+.header-content p {
+  font-family: " DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 5px;
+}
+#adminbutton {
+  background-color: #004c3f;
+  height: 64px;
+  padding: 20px 34px 20px 34px;
+  color: white;
+  font-family: " DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+#shopbutton {
+  height: 64px;
+  border: 1px solid #004c3f;
+  padding: 20px 34px 20px 34px;
+  color: #004c3f;
+  font-family: " DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+.header-image img {
+  width: 723px;
+  height: 487px;
+  top: 135px;
+  left: 634px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.customize {
+  height: 940px;
+  background-color: #fbf7ec;
+}
+.customize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.content h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 6%;
+}
+.content h1 {
+  height: 128px;
+
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  gap: 9px;
+}
+.content p {
+  font-family: " DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 41px;
+  grid-auto-rows: minmax(100px auto);
+  justify-content: center;
+  grid-auto-flow: dense;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+  border: 2px solid #004c3f;
+  width: 470px;
+  height: 167px;
+  top: 393px;
+  background-color: white;
+}
+.mub {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  background-color: #ffdb95;
+  height: 60px;
+}
+.cards h4 {
+  background-color: #ffdb95;
+  font-family: " DM Sans";
+  font-size: 18px;
+  font-weight: 500;
+  color: #212625;
+  line-height: 26px;
+}
+.cards img {
+  background-color: #ffdb95;
+}
+.cards p {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 3%;
+}
+
+.mokup {
+  height: 981px;
+}
+.mokup-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #004c3f;
+}
+.mokup-container h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background: #004c3f;
+  color: white;
+}
+.mokup-container p {
+  background: #004c3f;
+  color: white;
+  font-family: " DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.mokup-container img {
+  align-self: center;
+  background: #004c3f;
+  width: 1020.97px;
+  height: 669.51px;
+  top: 245px;
+  left: 167px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.payment {
+  height: 755px;
+}
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.pay-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  padding-bottom: 5%;
+}
+.pay-content h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.pay-content button {
+  width: Hug (116px) px;
+  height: Hug (44px) px;
+  top: 3611px;
+  left: 20px;
+  padding: 14px 25px 14px 25px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.pay-image img {
+  width: 443.5px;
+  height: 517px;
+  top: 69px;
+  left: 103px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.product {
+  height: 620px;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 108px;
+}
+.product-content {
+  display: flex;
+
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.product-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  padding-bottom: 5%;
+}
+.product-content h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.product-content button {
+  width: Hug (116px) px;
+  height: Hug (44px) px;
+  top: 3611px;
+  left: 20px;
+  padding: 14px 25px 14px 25px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.pro-image img {
+  width: 415.5px;
+  height: 476px;
+  top: 31px;
+  left: 730.5px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.testimonial {
+  height: 583px;
+}
+.testimonial {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.test-img img {
+  width: 470px;
+  height: 503.15px;
+  top: 39px;
+  left: 135px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.test-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.test-content h1 {
+  font-family: " Plus Jakarta" Display;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.test-content p {
+  font-family: " DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding-bottom: 2%;
+}
+.test-content h2 {
+  font-family: " DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+.Blog {
+  height: 1117px;
+}
+.Blog {
+  display: flex;
+  flex-direction: column;
+}
+.blog-cont {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  padding: 0px 45px 0px 45px;
+}
+.images-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 2% 0% 8% 0%;
+}
+.right-image h2 {
+  padding: 5px 0px 5px 0px;
+}
+.left-image h2 {
+  padding: 5px 0px 5px 0px;
+}
+.left-image img {
+  width: 570px;
+  height: 526px;
+  top: 211px;
+  left: 735px;
+  gap: 0px;
+  opacity: 0px;
+}
+.right-image img {
+  width: 570px;
+  height: 526px;
+  top: 211px;
+  left: 735px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.blog-cont button {
+  width: Hug (146px) px;
+  height: Hug (48px) px;
+  top: 82px;
+  left: 1159px;
+  padding: 14px 25px 14px 25px;
+  gap: 10px;
+  opacity: 0px;
+  background: #004c3f;
+  color: white;
+}
+
+.footer {
+  height: 1250px;
+  background: #002e24;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.allthree {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60%;
+  padding-top: 5%;
+}
+.allthree img {
+  background: transparent;
+}
+
+.footer-heading {
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-heading h1 {
+  width: 631px;
+  height: 128px;
+  font-family: " Plus Jakarta" Display;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  background: transparent;
+  text-align: center;
+  color: white;
+}
+.footer-heading p {
+  width: 570px;
+  height: 52px;
+  background: transparent;
+  text-align: center;
+  opacity: 0.7px;
+  color: white;
+}
+.footer-heading button {
+  width: Hug (188px) px;
+  height: Hug (64px) px;
+  top: 268px;
+  left: 624px;
+  padding: 20px 34px 20px 34px;
+  gap: 10px;
+  opacity: 0px;
+}
+.details {
+  color: white;
+  background: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px auto);
+}
+.details div img {
+  background: transparent;
+}
+.footer-logo {
+  background: transparent;
+  grid-column: 1/3;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20%;
+}
+.footer-content {
+  background: transparent;
+  display: flex;
+
+  flex-wrap: wrap;
+  grid-column: 4/8;
+  list-style: none;
+  gap: 40px;
+  padding: 3%;
+}
+.footer-content div,
+h2,
+li {
+  background: transparent;
+}
+.footer-content div {
+  width: 150px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
